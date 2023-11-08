@@ -3,9 +3,12 @@
 
 ## ⏳ Level 1
 ### Learning objectives
-
-
-
+- Learned the basic syntax of Java and applied it to programming.
+- Understanding the core concepts of object-oriented programming and applying them to code.
+- Experience in conducting unit testing and refactoring on code that I have implemented.
+- Developed console applications using a database.
+- Conducted pair programming for assigned missions and refactored code after receiving code reviews from industry professionals.
+<br>
 
 | Mission | Stages | Duration | Repository | Code-Review | What I learned |  
 | - | - | - | - | - | - |
@@ -18,56 +21,60 @@
 | **chess** | step1 : Initialize the chessboard, Implement piece movement | `2023.03.14` ~ `2023.03.16` | [click 🔗](https://github.com/zillionme/java-chess/tree/step1) | [click 🔗](https://github.com/woowacourse/java-chess/pull/497) | 🖋 |
 |  | step2 : Implement win/loss conditions and scoring | `2023.03.17` ~ `2023.03.31` | [click 🔗](https://github.com/zillionme/java-chess/tree/step2) | [click 🔗](https://github.com/woowacourse/java-chess/pull/606) | 🖋 |
 
-<br/>
+<br>
 
-## ⌛️ Level 0.5 : 오프라인 테스트
+## ⏳ Level 2
+### Learning objectives
+- 스프링 프레임워크를 이용해 웹 애플리케이션을 개발
+- 학습 테스트를 통해 새로운 기술을 익히고 미션에 적용
+- 클라우드 환경에 애플리케이션을 배포하고 운영
+- 새로운 기술을 익히는 본인만의 효과적인 학습 방법 찾기
+- 
+- Spring 프레임워크 기반으로 웹 애플리케이션을 개발하는 경험을 한다.
+- TDD, ATDD 기반으로 웹 애플리케이션을 개발하고 리팩토링하는 경험을 한다.
+- 구현한 프로그램을 서버에 배포하는 경험을 한다.
+- 팀 프로젝트를 통해 팀원들간의 소통, 협업, 회고 경험을 한다.
+<br>
 
-### 기간
+| Mission | Stages | Duration | Repository | Code-Review | What I learned |  
+| - | - | - | - | - | - |
+| **web-racingcar** | step1 : apply the Spring Framework | `2023.04.11` ~ `2023.04.13` | [click 🔗](https://github.com/zillionme/jwp-racingcar/tree/step1) | [click 🔗](https://github.com/woowacourse/jwp-racingcar/pull/64) | 🖋 |
+| | step2 : implement additional features and refactor | `2023.04.14` ~ `2023.04.24` | [click 🔗](https://github.com/zillionme/jwp-racingcar/tree/step2) | [click 🔗](https://github.com/woowacourse/jwp-racingcar/pull/193) | 🖋 |
+| **web-shopping-cart** | step1 : implement product management feature | `2023.04.25` ~ `2023.04.27` | [click 🔗](https://github.com/zillionme/jwp-shopping-cart/tree/step1) | [click 🔗](https://github.com/woowacourse/jwp-shopping-cart/pull/223) | 🖋 |
+|  | step2 : implement shopping cart feature | `2023.04.28` ~ `2023.05.08` | [click 🔗](https://github.com/zillionme/jwp-shopping-cart/tree/step2) | [click 🔗](https://github.com/woowacourse/jwp-shopping-cart/pull/356) | 🖋 |
+| **web-subway-path** | step1 : implement subway information management feature | `2023.05.09` ~ `2023.05.11` | [click 🔗](https://github.com/zillionme/jwp-subway-path/tree/step1) | [click 🔗]([https://github.com/woowacourse/jwp-subway-path/pull/78](https://github.com/woowacourse/jwp-subway-path/pull/75)) | 🖋 |
+| | step 2 : implement route lookup feature and apply fare policy | `2023.05.12` ~ `2023.05.22` | [click 🔗](https://github.com/zillionme/jwp-subway-path/tree/step2) | [click 🔗](https://github.com/woowacourse/jwp-subway-path/pull/179) | 🖋 |
+| **web-shopping-order** | step1 : set up client-server connectivity | `2023.05.23` ~ `2023.05.25` | [click 🔗](https://github.com/zillionme/jwp-shopping-order/tree/step1) | - | 🖋 |
+|  | 2단계 - 주문 기능 구현 | `2023.05.26` ~ `2023.06.05` | [click 🔗](https://github.com/zillionme/jwp-shopping-order/tree/step2) | [click 🔗](https://github.com/woowacourse/jwp-shopping-order/pull/84) | 🖋 |
 
-- 2019.12.24
 
-### 진행 미션
 
-| Project |                          Repository                          |                         Pull Request                         |
-| :-----: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| 치킨집  | [java-chicken-2019](https://github.com/joseph415/java-chicken-2020/tree/joseph415) | [Pull Request](https://github.com/woowacourse/java-chicken-2020/pull/39) |
 
-<br/>
 
-## 🥚 Level 1 : 프로그래밍 기본
 
-### 기간
 
-- 2020.02.04 ~ 2020.04.10
 
-### 학습 목표
 
-- 자바 프로그래밍 언어에 대한 기본 문법을 익혀 프로그래밍하는 경험을 한다.
-- 읽기 좋은 코드를 구현하는 것이 왜 중요한지와 코드를 개선해 읽기 좋은 코드로 변경해 보는 경험을 한다.
-- 자신이 구현한 코드에 대해 단위 테스트와 리팩토링하는 경험을 한다.
-- 웹 프론트엔드에서 웹 백엔드까지 프로그래밍해 웹 애플리케이션을 개발하는 경험을 한다.
 
-### 진행 미션
 
-|     Project      |                          Repository                          |                         Pull Request                         |
-| :--------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|  문자열 계산기   | [java-calculator](https://github.com/joseph415/java-calculator/tree/joseph415) | [Pull Request](https://github.com/woowacourse/java-calculator/pull/58) |
-| 자동차 경주 게임 |  [java-racingcar](https://github.com/joseph415/java-racingcar/tree/joseph415)  | [Pull Request](https://github.com/woowacourse/java-racingcar/pull/95) |
-|   로또 / step1   | [java-lotto/step1](https://github.com/joseph415/java-lotto/tree/step1) | [Pull Request](https://github.com/woowacourse/java-lotto/pull/146) |
-|   로또 / step2   | [java-lotto/step2](https://github.com/joseph415/java-lotto/tree/step2) | [Pull Request](https://github.com/woowacourse/java-lotto/pull/183) |
-|  블랙잭 / step1  | [java-blackjack/step1](https://github.com/joseph415/java-blackjack/tree/step) | [Pull Request](https://github.com/woowacourse/java-blackjack/pull/56) |
-|  블랙잭 / step2  | [java-blackjack/step2](https://github.com/joseph415/java-blackjack/tree/step2) | [Pull Request](https://github.com/woowacourse/java-blackjack/pull/73) |
-|   체스 / step1   | [java-chess/step1](https://github.com/joseph415/java-chess/tree/step1) | [Pull Request](https://github.com/woowacourse/java-chess/pull/64) |
-|   체스 / step2   | [java-chess/step2](https://github.com/joseph415/java-chess/tree/joseph415) | [Pull Request](https://github.com/woowacourse/java-chess/pull/149) |
-|   90년생 HTML    |            [html](https://github.com/joseph415/html/tree/joseph415)            | [Pull Request](https://github.com/woowacourse/html/pull/47)  |
 
-<br/>
 
-## 🐣 Level 2 : 웹 프로그래밍과 미니 팀 프로젝트
 
-### 기간
 
-- 2020.04.21 ~ 2020.06.19
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### 학습 목표
 
