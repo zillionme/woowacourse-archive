@@ -2,7 +2,7 @@
 # 👨🏻‍💻 woowacourse-archive
 
 ## ⏳ Level 1
-### Learning objectives
+### Learning Objectives
 - Learned the basic syntax of Java and applied it to programming.
 - Understanding the core concepts of object-oriented programming and applying them to code.
 - Experience in conducting unit testing and refactoring on code that I have implemented.
@@ -24,16 +24,12 @@
 <br>
 
 ## ⏳ Level 2
-### Learning objectives
-- 스프링 프레임워크를 이용해 웹 애플리케이션을 개발
-- 학습 테스트를 통해 새로운 기술을 익히고 미션에 적용
-- 클라우드 환경에 애플리케이션을 배포하고 운영
-- 새로운 기술을 익히는 본인만의 효과적인 학습 방법 찾기
-- 
-- Spring 프레임워크 기반으로 웹 애플리케이션을 개발하는 경험을 한다.
-- TDD, ATDD 기반으로 웹 애플리케이션을 개발하고 리팩토링하는 경험을 한다.
-- 구현한 프로그램을 서버에 배포하는 경험을 한다.
-- 팀 프로젝트를 통해 팀원들간의 소통, 협업, 회고 경험을 한다.
+### Learning Objectives
+- Developed a web application based on the Spring framework.
+- Developed and refactored the web application using Test-Driven Development (TDD).
+- Deployed and operated the application in a cloud environment.
+- Experienced in collaboration through a team project with frontend team members.
+
 <br>
 
 | Mission | Stages | Duration | Repository | Code-Review | What I learned |  
@@ -47,6 +43,19 @@
 | **web-shopping-order** | step1 : set up client-server connectivity | `2023.05.23` ~ `2023.05.25` | [click 🔗](https://github.com/zillionme/jwp-shopping-order/tree/step1) | - | 🖋 |
 |  | 2단계 - 주문 기능 구현 | `2023.05.26` ~ `2023.06.05` | [click 🔗](https://github.com/zillionme/jwp-shopping-order/tree/step2) | [click 🔗](https://github.com/woowacourse/jwp-shopping-order/pull/84) | 🖋 |
 
+<br>
+
+## ⏳ Level 3
+### Learning Objectives
+- Established a CI/CD pipeline.
+- Conducted the project based on the development process.
+- Deployed the application using AWS EC2, CloudFront, and S3.
+- Monitored the application logs and metrics using AWS CloudWatch.
+- Implemented a blue-green deployment method for seamless deployment.
+- Experienced active code reviews among team members.
+
+
+[Team Project Repository](https://github.com/woowacourse-teams/2023-naaga)
 
 
 
@@ -63,100 +72,3 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-### 학습 목표
-
-- Spring 프레임워크 기반으로 웹 애플리케이션을 개발하는 경험을 한다.
-- TDD, ATDD 기반으로 웹 애플리케이션을 개발하고 리팩토링하는 경험을 한다.
-- 구현한 프로그램을 서버에 배포하는 경험을 한다.
-- 팀 프로젝트를 통해 팀원들간의 소통, 협업, 회고 경험을 한다.
-
-### 진행 미션
-
-|       Project        |                          Repository                          |                         Pull Request                         |
-| :------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|     체스 / step1     | [jwp-chess/develop](https://github.com/joseph415/jwp-chess/tree/develop) | [Pull Request](https://github.com/woowacourse/jwp-chess/pull/36) |
-|     체스 / step2     | [jwp-chess/develop2](https://github.com/joseph415/jwp-chess/tree/develop2) | [Pull Request](https://github.com/woowacourse/jwp-chess/pull/104) |
-|     체스 / step3     | [jwp-chess/develop3](https://github.com/joseph415/jwp-chess/tree/develop3) | [Pull Request](https://github.com/woowacourse/jwp-chess/pull/134) |
-|     체스 / step4     | [jwp-chess/develop4](https://github.com/joseph415/jwp-chess/tree/develop4) | [Pull Request](https://github.com/woowacourse/jwp-chess/pull/210) |
-|   지하철 정보 관리   | [atdd-subway-admin](https://github.com/joseph415/atdd-subway-admin) | [Pull Request](https://github.com/woowacourse/atdd-subway-admin/pull/41) |
-|   지하철 경로 조회   | [atdd-subway-path](https://github.com/joseph415/atdd-subway-path) | [Pull Request](https://github.com/woowacourse/atdd-subway-path/pull/26) |
-| 지하철 경로 즐겨찾기 | [atdd-subway-favorite](https://github.com/joseph415/atdd-subway-favorite) | [Pull Request](https://github.com/woowacourse/atdd-subway-favorite/pull/38) |
-|  지하철 Admin CRUD   | [atdd-subway-admin-frontend](https://github.com/joseph415/atdd-subway-admin-frontend) | [Pull Request](https://github.com/woowacourse/atdd-subway-admin-frontend/pull/37) |
-|    사용자 이야기     | [woowa-userstory-2020](https://github.com/joseph415/woowa-userstory-2020/tree/joseph415) | [Pull Request](https://github.com/woowacourse/woowa-userstory-2020/pull/52) |
-
-<br/>
-
-## 🐥 Level 3 : 팀 프로젝트
-
-### 기간
-
-- 2020.07.07 ~ 2020.08.28
-
-### 학습 목표
-
-- 개발 프로세스 기반으로 프로젝트 진행, 협업하는 경험을 한다.
-- 배포를 자동화하고, 피드백을 받아 지속적으로 개선하는 경험을 한다.
-
-### 직고래 
-당신이 속한 그룹 어디든 당신이 원하는 것을 사고 파세요. 조직 중고 거래, 직고래 🐳
-
-> 따뜻한 교류가 있는 조직 벼룩시장을 꿈꾸다
-
-- [직고래 Github](https://github.com/woowacourse-teams/2020-seller-lee-company)
-- [학습기록](https://github.com/joseph415/JIKGORAE-project-records)
-- [직고래 소개](https://sites.google.com/woowahan.com/wooteco-demo/직고래)
-<br/>
-
-## 🐓 Level 4 : 팀 프로젝트 유지 보수 및 웹 백엔드에 깊이를 더하는 단계
-
-### 기간
-
-- 2020.09.08 ~ 2020.11.27
-
-### 학습 목표
-
-- 웹 서버를 직접 구현해 HTTP를 이해하고, 서블릿 컨테이너의 동작 원리를 이해한다.
-- 레거시 프로젝트를 리팩토링하는 경험을 한다.
-
-### 진행 미션
-| Level |                 Topic                  |                          Repository                          |                   
-| :---: | :------------------------------------: | :----------------------------------------------------------: | 
-|     웹 애플리케이션 서버     | [jwp-was](https://github.com/joseph415/jwp-was/tree/joseph415) | [Pull Request](https://github.com/woowacourse/jwp-was/pull/118) |
-|     리팩토링     | [jwp-refactoring](https://github.com/joseph415/jwp-refactoring/tree/joseph415) | [Pull Request](https://github.com/woowacourse/jwp-refactoring/pull/40) |
-
-<br/>
-
-## 📹 Tecotalk : 크루들에게 지식을 공유하는 방법
-
-### 발표 주제 : ARP Protocol
-![image](https://user-images.githubusercontent.com/53935703/111674571-80da6880-885f-11eb-8b96-dfe2ee4ea607.png)
-
-[ARP Protocol](https://www.youtube.com/watch?v=KMEPEdsK71I&t=0s)
-
-<br/>
-
-## 🖋 Writing : 글쓰기 코스
-
-### 진행 미션
-
-| Level |                 Topic                  |                          Repository                          |                   
-| :---: | :------------------------------------: | :----------------------------------------------------------: | 
-|   1   |      우아한테크코스 한 달 생활기       | [woowa-writing-2/level1](https://github.com/joseph415/woowa-writing-2/blob/joseph415/record.md)|
-|   2   | 우테코에서 찾은 나만의 효과적인 학습법 | [woowa-writing-2/level2](https://github.com/joseph415/woowa-writing-2/blob/joseph415/record2.md)| 
-|   3   |   팀 프로젝트가 나에게 남긴 것      | [woowa-writing-2/level3](https://github.com/joseph415/woowa-writing-2/blob/joseph415/recored3.md)|
-|   4   |      내가 꿈꾸는 프로그래머로서의 삶       |                       [woowa-writing-2/level4](https://github.com/joseph415/woowa-writing-2/blob/joseph415/record4.md)                        |
-
-<br/>
