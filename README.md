@@ -152,25 +152,26 @@ NAAGA is a game where players deduce the location they need to reach based on pi
 
 5. Resolution of Concurrent History Registration Issue for Pins with Messages
 
-  [Issue Situation]
-  - When storing the history of read notes, a concurrency problem occurred where quickly reading the same note twice resulted in multiple instances of the note being marked as read.
+    [Issue Situation]
+    - When storing the history of read notes, a concurrency problem occurred where quickly reading the same note twice resulted in multiple instances of the note being marked as read.
 
-  [Resolution Steps]
-  - Applied a unique constraint to the column of the respective database table to allow the storage of a specific note's read history only once, thus resolving the issue.
+    [Resolution Steps]
+    - Applied a unique constraint to the column of the respective database table to allow the storage of a specific note's read history only once, thus resolving the issue.
 
 <br>
 
 6. Contribution to Resolving Concurrent Likes Issue(Collaborative testing, comparative analysis of alternatives)
-  [Issue Situation]
-  - When multiple users pressed the 'like' button simultaneously, using JPA's change detection for updating the 'like' count resulted in data loss due to transaction conflicts (Lost Update).
 
-  [Resolution Steps]
-  - Introduced optimistic locking and retry logic to solve the concurrency problem. However, there was an issue where if 500 requests came in simultaneously, all but one request had to retry.
-  - Considered using update queries to address concurrency problems. However, this method held X-locks longer compared to using optimistic locking and had the issue of including domain logic in queries.
-  - Given that incrementing 'like' counts is a lightweight operation, even when using pessimistic locking, the time maintaining X-locks was found to be very short at 0.03 seconds.
-  - Ironically, due to the retry logic with optimistic locking, the performance degradation caused by optimistic locking was greater than that caused by pessimistic locking.
-  - Decided to resolve the concurrency issue using pessimistic locking via Update queries. However, there was a problem with the repository's query including domain logic for +1 operations.
-  - Therefore, resolved the concurrency issue of 'like' counts by using Select For Update to fetch 'like' counts and utilizing JPA's change detection.
+    [Issue Situation]
+    - When multiple users pressed the 'like' button simultaneously, using JPA's change detection for updating the 'like' count resulted in data loss due to transaction conflicts (Lost Update).
+  
+    [Resolution Steps]
+    - Introduced optimistic locking and retry logic to solve the concurrency problem. However, there was an issue where if 500 requests came in simultaneously, all but one request had to retry.
+    - Considered using update queries to address concurrency problems. However, this method held X-locks longer compared to using optimistic locking and had the issue of including domain logic in queries.
+    - Given that incrementing 'like' counts is a lightweight operation, even when using pessimistic locking, the time maintaining X-locks was found to be very short at 0.03 seconds.
+    - Ironically, due to the retry logic with optimistic locking, the performance degradation caused by optimistic locking was greater than that caused by pessimistic locking.
+    - Decided to resolve the concurrency issue using pessimistic locking via Update queries. However, there was a problem with the repository's query including domain logic for +1 operations.
+    - Therefore, resolved the concurrency issue of 'like' counts by using Select For Update to fetch 'like' counts and utilizing JPA's change detection.
 
 
 ---
