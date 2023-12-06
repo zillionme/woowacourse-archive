@@ -62,8 +62,11 @@ NAAGA is a game where players deduce the location they need to reach based on pi
 ### Github
 [Team Project Repository](https://github.com/woowacourse-teams/2023-naaga)
 
+
 ## My Portfolio
 [Team Project Portfolio](https://balanced-iguanodon-61e.notion.site/Portfolio-0d4219a1078e42d394d26ea8f011595f?pvs=4)
+
+
 
 
 ## What I did in project
