@@ -180,11 +180,11 @@ NAAGA is a game where players deduce the location they need to reach based on pi
 
 ### Introduction of Submodules
 - Implementing environment-specific configurations using submodules.
-- 
+  
 ### Non-Disruptive Deployment Shell Scripting
 - Using `ping` for validation of newly launched containers during deployment.
 - Writing docker-compose files and utilizing Docker Hub.
-- 
+  
 ### Monitoring with CloudWatch
 - Configuration of logging, metric monitoring, and dashboard creation.
 
