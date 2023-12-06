@@ -91,7 +91,9 @@ NAAGA is a game where players deduce the location they need to reach based on pi
 
 
 <br>
+
 2. N+1 Troubleshooting
+
 - Resolving N+1 issue through Fetch Join
 - Resolving '@Transactional' LazyInitializationException error
 
@@ -105,6 +107,7 @@ NAAGA is a game where players deduce the location they need to reach based on pi
 
 
 <br>
+
 3. Introduction of CloudFront and S3
 - Resolving image file caching and storage capacity issues
   - Unlimited storage capacity provided by S3
@@ -124,6 +127,7 @@ NAAGA is a game where players deduce the location they need to reach based on pi
   - Additionally, by directing requests to S3 and EC2 based on the requested URL path, we reinforced EC2 security.
 
 <br>
+
 4. Establishment of CI/CD Pipeline and Continuous Deployment
 - Utilizing GithubActions and Docker Hub for version control, we established a CI/CD pipeline.
 
@@ -145,6 +149,7 @@ NAAGA is a game where players deduce the location they need to reach based on pi
   - Resolved downtime issues by directing traffic to newly updated Docker containers using Nginx's reverse proxy configuration.
 
 <br>
+
 5. Resolution of Concurrent History Registration Issue for Pins with Messages
 
   [Issue Situation]
@@ -154,6 +159,7 @@ NAAGA is a game where players deduce the location they need to reach based on pi
   - Applied a unique constraint to the column of the respective database table to allow the storage of a specific note's read history only once, thus resolving the issue.
 
 <br>
+
 6. Contribution to Resolving Concurrent Likes Issue(Collaborative testing, comparative analysis of alternatives)
   [Issue Situation]
   - When multiple users pressed the 'like' button simultaneously, using JPA's change detection for updating the 'like' count resulted in data loss due to transaction conflicts (Lost Update).
