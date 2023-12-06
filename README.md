@@ -62,6 +62,9 @@ NAAGA is a game where players deduce the location they need to reach based on pi
 ### Github
 [Team Project Repository](https://github.com/woowacourse-teams/2023-naaga)
 
+## My Portfolio
+[Team Project Portfolio](https://balanced-iguanodon-61e.notion.site/Portfolio-0d4219a1078e42d394d26ea8f011595f?pvs=4)
+
 
 ## What I did in project
 1. Application of Spatial Data and Spatial Index
@@ -139,7 +142,7 @@ NAAGA is a game where players deduce the location they need to reach based on pi
     - Rolling deployment, which sequentially updates versions on multiple servers, wasn't appropriate for a single server.
     - Canary deployment, for gradually updating versions to a small number of users, wasn't selected as the service doesn't cater to a large number of users to distribute traffic.
     - Hence, we opted for Blue-Green deployment, which doesn't require consideration for lower server version compatibility.
-    - Resolved downtime issues by directing traffic to newly updated Docker containers using Nginx's reverse proxy configuration.
+  - Resolved downtime issues by directing traffic to newly updated Docker containers using Nginx's reverse proxy configuration.
 
 <br><br><br>
 
