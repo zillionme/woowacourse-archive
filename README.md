@@ -61,13 +61,13 @@ NAAGA is a game where players deduce the location they need to reach based on pi
 
 ### Github
 [Team Project Repository](https://github.com/woowacourse-teams/2023-naaga)
-
+<br>
 
 ## My Portfolio
 [Team Project Portfolio](https://balanced-iguanodon-61e.notion.site/Portfolio-0d4219a1078e42d394d26ea8f011595f?pvs=4)
 
 
-
+---
 
 ## What I did in project
 1. Application of Spatial Data and Spatial Index
@@ -90,8 +90,7 @@ NAAGA is a game where players deduce the location they need to reach based on pi
   - Leveraging spatial data and a spatial index resulted in a performance improvement from a query execution time of 0.03 seconds to 0.005 seconds, achieving a six-fold speed enhancement.
 
 
-<br><br><br>
-
+<br>
 2. N+1 Troubleshooting
 - Resolving N+1 issue through Fetch Join
 - Resolving '@Transactional' LazyInitializationException error
@@ -105,8 +104,7 @@ NAAGA is a game where players deduce the location they need to reach based on pi
   - Thus, resolved the problem by attaching the '@Transactional' annotation to the respective test code to encapsulate within the scope of a single transaction.
 
 
-<br><br><br>
-
+<br>
 3. Introduction of CloudFront and S3
 - Resolving image file caching and storage capacity issues
   - Unlimited storage capacity provided by S3
@@ -125,8 +123,7 @@ NAAGA is a game where players deduce the location they need to reach based on pi
   - Leveraging CloudFront's caching functionality reduced content download time from 2.26ms to 0.67ms.
   - Additionally, by directing requests to S3 and EC2 based on the requested URL path, we reinforced EC2 security.
 
-<br><br><br>
-
+<br>
 4. Establishment of CI/CD Pipeline and Continuous Deployment
 - Utilizing GithubActions and Docker Hub for version control, we established a CI/CD pipeline.
 
@@ -147,8 +144,7 @@ NAAGA is a game where players deduce the location they need to reach based on pi
     - Hence, we opted for Blue-Green deployment, which doesn't require consideration for lower server version compatibility.
   - Resolved downtime issues by directing traffic to newly updated Docker containers using Nginx's reverse proxy configuration.
 
-<br><br><br>
-
+<br>
 5. Resolution of Concurrent History Registration Issue for Pins with Messages
 
   [Issue Situation]
@@ -157,9 +153,7 @@ NAAGA is a game where players deduce the location they need to reach based on pi
   [Resolution Steps]
   - Applied a unique constraint to the column of the respective database table to allow the storage of a specific note's read history only once, thus resolving the issue.
 
-<br><br><br>
-
-
+<br>
 6. Contribution to Resolving Concurrent Likes Issue(Collaborative testing, comparative analysis of alternatives)
   [Issue Situation]
   - When multiple users pressed the 'like' button simultaneously, using JPA's change detection for updating the 'like' count resulted in data loss due to transaction conflicts (Lost Update).
@@ -173,12 +167,41 @@ NAAGA is a game where players deduce the location they need to reach based on pi
   - Therefore, resolved the concurrency issue of 'like' counts by using Select For Update to fetch 'like' counts and utilizing JPA's change detection.
 
 
+---
+
+##  Functionality I Implemented
+
+### Introduction of Submodules
+- Implementing environment-specific configurations using submodules.
+- 
+### Non-Disruptive Deployment Shell Scripting
+- Using `ping` for validation of newly launched containers during deployment.
+- Writing docker-compose files and utilizing Docker Hub.
+- 
+### Monitoring with CloudWatch
+- Configuration of logging, metric monitoring, and dashboard creation.
+
+### Automated Login/Logout/Account Deletion
+- Leveraging `OAuth 2.0` and JWT token usage.
+
+### Allocation of Places Based on User Location
+- Utilizing **spatial data** and **spatial indexes**.
+
+### Score Calculation at Game Completion
+- Implementing score calculation logic considering playtime and distance with respective weights upon successful game completion.
+- Employing the Strategy Pattern for flexible score calculation, adhering to the Open/Closed Principle (OCP).
+
+### Recording Registered Posts and Read Post Logs During Gameplay
+- Resolving the act of reading a post, which involved a many-to-many mapping, by creating an intermediate object.
+- Addressing post registration, an act involving a one-to-many mapping, through the creation of an intermediate object.
 
 
+---
+
+## Infrastructure
+<img width="863" alt="image" src="https://github.com/zillionme/woowacourse-archive/assets/100172683/1e14778f-22a7-4504-9c1d-47579dfd84a4">
 
 
-
-
-
-
+## CI/CD pipeline
+<img width="863" alt="image" src="https://github.com/zillionme/woowacourse-archive/assets/100172683/14b52b0e-5f49-4555-8618-8358e776762d">
 
